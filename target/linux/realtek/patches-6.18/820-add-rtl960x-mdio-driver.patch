@@ -1,6 +1,6 @@
 --- a/drivers/net/mdio/Kconfig
 +++ b/drivers/net/mdio/Kconfig
-@@ -216,6 +216,13 @@ config MDIO_REALTEK_OTTO_SERDES
+@@ -209,6 +209,13 @@ config MDIO_REALTEK_OTTO_SERDES
          help
            This driver provides MDIO access to the RTL83xx/RTL93xx SerDes.
  
@@ -16,8 +16,8 @@
  	depends on 64BIT
 --- a/drivers/net/mdio/Makefile
 +++ b/drivers/net/mdio/Makefile
-@@ -25,6 +25,7 @@ obj-$(CONFIG_MDIO_REGMAP)		+= mdio-regma
- obj-$(CONFIG_MDIO_REALTEK_OTTO)	+= mdio-realtek-otto.o
+@@ -24,6 +24,7 @@ obj-$(CONFIG_MDIO_REALTEK_RTL9300)	+= md
+ obj-$(CONFIG_MDIO_REGMAP)		+= mdio-regmap.o
  obj-$(CONFIG_MDIO_REALTEK_OTTO_AUX)	+= mdio-realtek-otto-aux.o
  obj-$(CONFIG_MDIO_REALTEK_OTTO_SERDES)	+= mdio-realtek-otto-serdes.o
 +obj-$(CONFIG_MDIO_REALTEK_OTTO_RTL960X)	+= mdio-realtek-otto-rtl960x.o
