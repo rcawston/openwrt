@@ -229,7 +229,7 @@
 		};
 
 		mdio_ctrl: mdio-controller {
-			compatible = "realtek,rtl8392-mdio", "realtek,otto-mdio";
+			compatible = "realtek,rtl8392-mdio", "realtek,rtl8391-mdio", "realtek,otto-mdio";
 			#address-cells = <1>;
 			#size-cells = <0>;
 
